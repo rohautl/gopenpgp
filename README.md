@@ -1,5 +1,5 @@
 # GopenPGP V2
-[![Build Status](https://travis-ci.org/ProtonMail/gopenpgp.svg?branch=master)](https://travis-ci.org/ProtonMail/gopenpgp)
+[![Build Status](https://travis-ci.org/rohautl/gopengpg.svg?branch=master)](https://travis-ci.org/rohautl/gopengpg)
 
 GopenPGP is a high-level OpenPGP library built on top of [a fork of the golang
 crypto library](https://github.com/ProtonMail/crypto).
@@ -30,7 +30,7 @@ To use this library using [Go Modules](https://github.com/golang/go/wiki/Modules
 ```gomod
 require (
     ...
-    github.com/ProtonMail/gopenpgp/v2 v2.0.1
+    github.com/rohautl/gopengpg/v2 v2.0.1
 )
 ```
 
@@ -44,7 +44,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
+	"github.com/rohautl/gopengpg/v2/crypto"
 )
 
 func main() {
@@ -58,7 +58,7 @@ To install for development mode, cloning the repository, it can be done in the f
 cd $GOPATH
 mkdir -p src/github.com/ProtonMail/
 cd $GOPATH/src/github.com/ProtonMail/
-git clone git@github.com:ProtonMail/gopenpgp.git
+git clone git@github.com:rohautl/gopengpg.git
 cd gopenpgp
 ln -s . v2
 go mod
@@ -66,7 +66,7 @@ go mod
 
 ## Documentation
 A full overview of the API can be found here:
-https://godoc.org/gopkg.in/ProtonMail/gopenpgp.v2/crypto
+https://godoc.org/gopkg.in/rohautl/gopengpg.v2/crypto
 
 In this document examples are provided and the proper use of (almost) all functions is tested.
 
@@ -99,7 +99,7 @@ to filter one out you can comment out the line in the corresponding section.
 ### Encrypt / Decrypt with password
 
 ```go
-import "github.com/ProtonMail/gopenpgp/v2/helper"
+import "github.com/rohautl/gopengpg/v2/helper"
 
 const password = []byte("hunter2")
 
@@ -112,7 +112,7 @@ message, err := helper.DecryptMessageWithPassword(password, armor)
 
 To encrypt binary data or use more advanced modes:
 ```go
-import "github.com/ProtonMail/gopenpgp/v2/constants"
+import "github.com/rohautl/gopengpg/v2/constants"
 
 const password = []byte("hunter2")
 
@@ -133,7 +133,7 @@ decrypted, err := DecryptMessageWithPassword(encrypted, password)
 ### Encrypt / Decrypt with PGP keys
 
 ```go
-import "github.com/ProtonMail/gopenpgp/v2/helper"
+import "github.com/rohautl/gopengpg/v2/helper"
 
 // put keys in backtick (``) to avoid errors caused by spaces or tabs
 const pubkey = `-----BEGIN PGP PUBLIC KEY BLOCK-----

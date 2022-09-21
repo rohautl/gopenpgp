@@ -5,8 +5,8 @@ import (
 	goerrors "errors"
 	"runtime/debug"
 
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/pkg/errors"
+	"github.com/rohautl/gopengpg/v2/crypto"
 )
 
 type ExplicitVerifyMessage struct {

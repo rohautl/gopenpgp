@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/internal"
+	"github.com/rohautl/gopengpg/v2/internal"
 
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
+	"github.com/rohautl/gopengpg/v2/crypto"
 	"github.com/stretchr/testify/assert"
 )
 
