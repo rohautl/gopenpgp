@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
+	"github.com/rohautl/gopenpgp/v2/constants"
 )
 
 // Encrypt encrypts a PlainMessage, outputs a PGPMessage.

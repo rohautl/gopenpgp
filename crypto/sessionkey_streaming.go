@@ -1,9 +1,9 @@
 package crypto
 
 import (
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
 )
 
 type signAndEncryptWriteCloser struct {

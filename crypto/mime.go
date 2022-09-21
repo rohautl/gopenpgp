@@ -7,11 +7,11 @@ import (
 	"net/textproto"
 	"strings"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	gomime "github.com/ProtonMail/go-mime"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
+	"github.com/rohautl/gopenpgp/v2/constants"
 )
 
 // MIMECallbacks defines callback methods to process a MIME message.

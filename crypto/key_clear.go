@@ -6,10 +6,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ProtonMail/go-crypto/openpgp/ecdh"
-	"github.com/ProtonMail/go-crypto/openpgp/ecdsa"
-	"github.com/ProtonMail/go-crypto/openpgp/eddsa"
-	"github.com/ProtonMail/go-crypto/openpgp/elgamal"
+	"github.com/rohautl/go-crypto/openpgp/ecdh"
+	"github.com/rohautl/go-crypto/openpgp/ecdsa"
+	"github.com/rohautl/go-crypto/openpgp/eddsa"
+	"github.com/rohautl/go-crypto/openpgp/elgamal"
 )
 
 func (sk *SessionKey) Clear() (ok bool) {

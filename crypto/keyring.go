@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
 )
 
 // KeyRing contains multiple private and public keys.

@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/rohautl/go-crypto/openpgp/packet"
+	"github.com/rohautl/gopenpgp/v2/constants"
 	"github.com/stretchr/testify/assert"
 )
 

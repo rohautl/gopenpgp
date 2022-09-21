@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
 )
 
 // AttachmentProcessor keeps track of the progress of encrypting an attachment

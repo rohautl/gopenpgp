@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	pgpErrors "github.com/ProtonMail/go-crypto/openpgp/errors"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	pgpErrors "github.com/rohautl/go-crypto/openpgp/errors"
+	"github.com/rohautl/go-crypto/openpgp/packet"
 )
 
 // EncryptMessageWithPassword encrypts a PlainMessage to PGPMessage with a

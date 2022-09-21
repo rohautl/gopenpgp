@@ -3,8 +3,8 @@ package internal
 import (
 	"strings"
 
-	"github.com/ProtonMail/go-crypto/openpgp/armor"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp/armor"
 )
 
 // Unarmor unarmors an armored string.

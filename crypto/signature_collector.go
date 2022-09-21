@@ -7,13 +7,13 @@ import (
 	"mime"
 	"net/textproto"
 
-	pgpErrors "github.com/ProtonMail/go-crypto/openpgp/errors"
-	"github.com/ProtonMail/gopenpgp/v2/internal"
+	pgpErrors "github.com/rohautl/go-crypto/openpgp/errors"
+	"github.com/rohautl/gopenpgp/v2/internal"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	gomime "github.com/ProtonMail/go-mime"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
 )
 
 // SignatureCollector structure.

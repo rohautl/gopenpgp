@@ -3,12 +3,13 @@ package crypto
 import (
 	"bytes"
 	"crypto"
+	"fmt"
 	"io"
 	"time"
 
-	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/pkg/errors"
+	"github.com/rohautl/go-crypto/openpgp"
+	"github.com/rohautl/go-crypto/openpgp/packet"
 )
 
 type Reader interface {
@@ -190,6 +191,8 @@ func (keyRing *KeyRing) DecryptStream(
 	verifyKeyRing *KeyRing,
 	verifyTime int64,
 ) (plainMessage *PlainMessageReader, err error) {
+	fmt.Printf("STARTING DecryptStream\n")
+
 	messageDetails, err := asymmetricDecryptStream(
 		message,
 		keyRing,
@@ -197,9 +200,11 @@ func (keyRing *KeyRing) DecryptStream(
 		verifyTime,
 	)
 	if err != nil {
+		fmt.Println("error no NIL dans asymmetricDecryptStream")
 		return nil, err
 	}
 
+	fmt.Printf("Signed by (keyID): %d\n", messageDetails.SignedByKeyId)
 	return &PlainMessageReader{
 		messageDetails,
 		verifyKeyRing,
