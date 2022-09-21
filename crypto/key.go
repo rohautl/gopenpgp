@@ -29,6 +29,7 @@ type Key struct {
 
 // NewKeyFromArmoredReader reads an armored data into a key.
 func NewKeyFromArmoredReader(r io.Reader) (key *Key, err error) {
+	fmt.Println("Custom")
 	key = &Key{}
 	err = key.readFrom(r, true)
 	if err != nil {
