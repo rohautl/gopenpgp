@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ProtonMail/gopenpgp/v2/armor"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
 	"github.com/pkg/errors"
+	"github.com/rohautl/gopenpgp/v2/armor"
+	"github.com/rohautl/gopenpgp/v2/constants"
 
 	openpgp "github.com/ProtonMail/go-crypto/openpgp"
 	packet "github.com/ProtonMail/go-crypto/openpgp/packet"
@@ -29,6 +29,7 @@ type Key struct {
 
 // NewKeyFromArmoredReader reads an armored data into a key.
 func NewKeyFromArmoredReader(r io.Reader) (key *Key, err error) {
+	fmt.Println("test")
 	key = &Key{}
 	err = key.readFrom(r, true)
 	if err != nil {

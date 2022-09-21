@@ -8,9 +8,9 @@ import (
 	"io/ioutil"
 
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
-	"github.com/ProtonMail/gopenpgp/v2/internal"
 	"github.com/pkg/errors"
+	"github.com/rohautl/gopenpgp/v2/constants"
+	"github.com/rohautl/gopenpgp/v2/internal"
 )
 
 // ArmorKey armors input as a public key.

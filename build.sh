@@ -82,12 +82,12 @@ ANDROID_JAVA_PKG="com.proton.${BUILD_NAME}"
 # ==== Packages to included =====
 PACKAGES=""
 ## crypto must be the first one, and the framework name better same with the first package name
-import github.com/ProtonMail/gopenpgp/v2/crypto
-import github.com/ProtonMail/gopenpgp/v2/armor
-import github.com/ProtonMail/gopenpgp/v2/constants
-import github.com/ProtonMail/gopenpgp/v2/models
-import github.com/ProtonMail/gopenpgp/v2/subtle
-import github.com/ProtonMail/gopenpgp/v2/helper
+import github.com/rohautl/gopenpgp/v2/crypto
+import github.com/rohautl/gopenpgp/v2/armor
+import github.com/rohautl/gopenpgp/v2/constants
+import github.com/rohautl/gopenpgp/v2/models
+import github.com/rohautl/gopenpgp/v2/subtle
+import github.com/rohautl/gopenpgp/v2/helper
 
 ######## ======== Main ===========
 

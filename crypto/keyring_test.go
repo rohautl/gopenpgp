@@ -10,7 +10,7 @@ import (
 	"github.com/ProtonMail/go-crypto/openpgp/ecdh"
 	"github.com/ProtonMail/go-crypto/openpgp/eddsa"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/rohautl/gopenpgp/v2/constants"
 )
 
 var testSymmetricKey []byte

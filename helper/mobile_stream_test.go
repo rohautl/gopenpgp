@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
+	"github.com/rohautl/gopenpgp/v2/constants"
+	"github.com/rohautl/gopenpgp/v2/crypto"
 )
 
 func cloneTestData() (a, b []byte) {
