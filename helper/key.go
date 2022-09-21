@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/pkg/errors"
+	"github.com/rohautl/gopenpgp/v2/crypto"
 )
 
 // UpdatePrivateKeyPassphrase decrypts the given armored privateKey with oldPassphrase,

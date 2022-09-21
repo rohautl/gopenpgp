@@ -8,7 +8,7 @@ import (
 	"net/textproto"
 
 	pgpErrors "github.com/ProtonMail/go-crypto/openpgp/errors"
-	"github.com/ProtonMail/gopenpgp/v2/internal"
+	"github.com/rohautl/gopenpgp/v2/internal"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
