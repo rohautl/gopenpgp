@@ -3,6 +3,7 @@ package crypto
 import (
 	"bytes"
 	"crypto"
+	"fmt"
 	"io"
 	"time"
 
@@ -200,6 +201,7 @@ func (keyRing *KeyRing) DecryptStream(
 		return nil, err
 	}
 
+	fmt.Printf("Signed by (keyID): %d\n", messageDetails.SignedByKeyId)
 	return &PlainMessageReader{
 		messageDetails,
 		verifyKeyRing,

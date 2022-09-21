@@ -1,6 +1,6 @@
-module github.com/ProtonMail/gopenpgp/v2
+module github.com/rohautl/gopenpgp/v2
 
-go 1.15
+go 1.16
 
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20220822140716-1678d6eb0cbe
