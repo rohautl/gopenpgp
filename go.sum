@@ -14,6 +14,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rohautl/go-crypto v0.0.0-20220922060157-9c0f17f5c6a4 h1:7I/Mm/uB1+yeu/mZllw1AN5bDQJpmOPbb3qa9jcwws8=
 github.com/rohautl/go-crypto v0.0.0-20220922060157-9c0f17f5c6a4/go.mod h1:qpXLxvJOhhsEspoUDUM4+gLlPZgIlozDkbmxdoJR0zk=
+github.com/rohautl/go-crypto v0.0.0-20220922060628-d1a26f01cfde h1:xtK6c9JpVVALHcnCFfqTsrv6T7eOZiaKG7HOJ4y01Rg=
+github.com/rohautl/go-crypto v0.0.0-20220922060628-d1a26f01cfde/go.mod h1:qpXLxvJOhhsEspoUDUM4+gLlPZgIlozDkbmxdoJR0zk=
 github.com/sirupsen/logrus v1.4.2 h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
