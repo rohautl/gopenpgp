@@ -18,6 +18,8 @@ github.com/rohautl/go-crypto v0.0.0-20220926084352-f443db5a2254 h1:BhM7bsJ9c0s3u
 github.com/rohautl/go-crypto v0.0.0-20220926084352-f443db5a2254/go.mod h1:qpXLxvJOhhsEspoUDUM4+gLlPZgIlozDkbmxdoJR0zk=
 github.com/rohautl/go-crypto v0.0.0-20220926084853-b1d8ec38e8d5 h1:4I53+Dp3zd/7rzDv5V8NoxQ9nsbLFbM/zXnSGfBbNRo=
 github.com/rohautl/go-crypto v0.0.0-20220926084853-b1d8ec38e8d5/go.mod h1:qpXLxvJOhhsEspoUDUM4+gLlPZgIlozDkbmxdoJR0zk=
+github.com/rohautl/go-crypto v0.0.0-20220926085117-20f28b2f39a0 h1:lTshZPJjJD2XMTNhj8GTu7ujl424xgiFSqvoitinMPY=
+github.com/rohautl/go-crypto v0.0.0-20220926085117-20f28b2f39a0/go.mod h1:qpXLxvJOhhsEspoUDUM4+gLlPZgIlozDkbmxdoJR0zk=
 github.com/sirupsen/logrus v1.4.2 h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
